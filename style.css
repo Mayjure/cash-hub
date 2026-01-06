@@ -93,3 +93,21 @@ nav.menu {
     margin: 10px 0;
   }
 }
+
+
+.casino-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #28a745;       /* green for casino */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.casino-btn:hover {
+  background: #1e7e34;       /* darker green on hover */
+  transform: scale(1.05);
+}
