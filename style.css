@@ -37,6 +37,7 @@ header {
 
 
 /* Top navigation menu */
+
 nav.menu {
   text-align: center;
   background: #1a73e8;      /* blue bar */
@@ -44,6 +45,10 @@ nav.menu {
   border-radius: 6px;
   margin: 20px auto;
   max-width: 700px;
+
+ position: sticky;      /* sticks to top when scrolling */
+  top: 0;                /* distance from top */
+  z-index: 100;          /* ensures it stays above content */
 }
 
 nav.menu a {
@@ -57,3 +62,12 @@ nav.menu a {
 nav.menu a:hover {
   text-decoration: underline;
 }
+
+
+ 
+
+
+nav.menu {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
