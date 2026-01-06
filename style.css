@@ -34,3 +34,26 @@ header {
   text-decoration: none;
   border-radius: 4px;
 }
+
+
+/* Top navigation menu */
+nav.menu {
+  text-align: center;
+  background: #1a73e8;      /* blue bar */
+  padding: 10px 0;
+  border-radius: 6px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+nav.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav.menu a:hover {
+  text-decoration: underline;
+}
