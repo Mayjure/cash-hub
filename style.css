@@ -98,8 +98,8 @@ nav.menu {
 .casino-btn {
   display: inline-block;
   margin-top: 15px;
-  background: #28a745;       /* green for casino */
-  color: white;
+  background: #28a745; !important;      /* green for casino */
+  color: white; !important;
   padding: 12px 20px;
   text-decoration: none;
   border-radius: 6px;
