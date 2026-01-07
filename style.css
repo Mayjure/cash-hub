@@ -113,3 +113,22 @@ nav.menu {
   background: #1e7e34 !important;  /* Darker green on hover */
   transform: scale(1.05);
 }
+
+
+/* Purple button for casino offers */
+.trading-btn {
+  display: inline-block;
+  margin-top: 15px;
+  background: #6f42c1;      /* purple = trading */
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.trading-btn:hover {
+  background: #59339d;
+  transform: scale(1.05);
+}
