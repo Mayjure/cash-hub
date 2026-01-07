@@ -132,3 +132,35 @@ nav.menu {
   background: #59339d;
   transform: scale(1.05);
 }
+
+
+/* =========================
+   PAGE HEADER COLORS
+========================= */
+
+body.cash header {
+  background: #1a73e8;
+}
+
+body.casino header {
+  background: #28a745;
+}
+
+body.trading header {
+  background: #6f42c1;
+}
+
+/* =========================
+   NAV LINK COLOR CONSISTENCY
+========================= */
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
