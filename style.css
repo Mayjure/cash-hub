@@ -164,3 +164,55 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
+
+
+
+/* =========================
+   PAGE-SPECIFIC BUTTON OVERRIDES
+========================= */
+
+/* Casino buttons override */
+body.casino .offer a {
+  background: #28a745;
+}
+
+/* Trading buttons override */
+body.trading .offer a {
+  background: #6f42c1;
+}
+
+body.trading .offer a:hover {
+  background: #59339d;
+}
+
+
+
+/* =========================
+   PAGE-SPECIFIC NAV COLORS
+========================= */
+
+body.cash header nav a {
+  color: white;
+}
+
+body.casino header nav a {
+  color: white;
+}
+
+body.trading header nav a {
+  color: white;
+}
+
+/* Nav hover effect matches theme */
+
+body.cash header nav a:hover {
+  color: #dbe7ff;
+}
+
+body.casino header nav a:hover {
+  color: #d4edda;
+}
+
+body.trading header nav a:hover {
+  color: #e0d6f7;
+}
