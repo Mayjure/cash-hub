@@ -95,11 +95,13 @@ nav.menu {
 }
 
 
-.casino-btn {
+/* Green button for casino offers */
+
+.offer a.casino-btn {
   display: inline-block;
   margin-top: 15px;
-  background: #28a745; !important;      /* green for casino */
-  color: white; !important;
+  background: #28a745 !important;   /* Green for casino offers */
+  color: white !important;          /* Text color */
   padding: 12px 20px;
   text-decoration: none;
   border-radius: 6px;
@@ -107,7 +109,7 @@ nav.menu {
   transition: all 0.2s ease;
 }
 
-.casino-btn:hover {
-  background: #1e7e34;       /* darker green on hover */
+.offer a.casino-btn:hover {
+  background: #1e7e34 !important;  /* Darker green on hover */
   transform: scale(1.05);
 }
