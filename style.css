@@ -216,3 +216,82 @@ body.casino header nav a:hover {
 body.trading header nav a:hover {
   color: #e0d6f7;
 }
+
+
+
+/* =========================
+   PAGE-SPECIFIC NAV BACKGROUND
+========================= */
+
+body.cash header nav {
+  background: #1a73e8;
+}
+
+body.casino header nav {
+  background: #28a745;
+}
+
+body.trading header nav {
+  background: #6f42c1;
+}
+
+/* Nav link styling */
+
+header nav {
+  padding: 10px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* =========================
+   NAV MENU STRUCTURE
+========================= */
+
+.menu {
+  padding: 12px 0;
+  text-align: center;
+}
+
+/* =========================
+   PAGE-SPECIFIC MENU COLORS
+========================= */
+
+body.cash .menu {
+  background: #1a73e8;
+}
+
+body.casino .menu {
+  background: #28a745;
+}
+
+body.trading .menu {
+  background: #6f42c1;
+}
+
+/* =========================
+   MENU LINKS
+========================= */
+
+.menu a {
+  color: white;
+  font-weight: bold;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
