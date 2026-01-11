@@ -44,7 +44,9 @@ header {
 
 
 
-/* Top navigation menu */
+/*===========================
+     Top navigation menu
+============================*/
 
 nav.menu {
   text-align: center;
@@ -95,7 +97,9 @@ nav.menu {
 }
 
 
-/* Green button for casino offers */
+/*======================================
+     Green button for casino offers 
+========================================*/
 
 .offer a.casino-btn {
   display: inline-block;
@@ -167,9 +171,9 @@ header nav a:hover {
 
 
 
-/* =========================
+/* ====================================
    PAGE-SPECIFIC BUTTON OVERRIDES
-========================= */
+===================================== */
 
 /* Casino buttons override */
 body.casino .offer a {
@@ -187,9 +191,9 @@ body.trading .offer a:hover {
 
 
 
-/* =========================
+/* =============================
    PAGE-SPECIFIC NAV COLORS
-========================= */
+============================== */
 
 body.cash header nav a {
   color: white;
@@ -219,9 +223,9 @@ body.trading header nav a:hover {
 
 
 
-/* =========================
+/* =================================
    PAGE-SPECIFIC NAV BACKGROUND
-========================= */
+================================= */
 
 body.cash header nav {
   background: #1a73e8;
@@ -256,17 +260,17 @@ header nav a:hover {
 
 
 /* =========================
-   NAV MENU STRUCTURE
-========================= */
+     NAV MENU STRUCTURE
+============================ */
 
 .menu {
   padding: 12px 0;
   text-align: center;
 }
 
-/* =========================
+/* ==============================
    PAGE-SPECIFIC MENU COLORS
-========================= */
+================================ */
 
 body.cash .menu {
   background: #1a73e8;
@@ -281,7 +285,7 @@ body.trading .menu {
 }
 
 /* =========================
-   MENU LINKS
+        MENU LINKS
 ========================= */
 
 .menu a {
