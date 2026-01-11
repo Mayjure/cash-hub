@@ -272,6 +272,7 @@ header nav a:hover {
 
 
 
+
 /* =========================
      NAV MENU STRUCTURE
 ============================ */
@@ -280,6 +281,9 @@ header nav a:hover {
   padding: 12px 0;
   text-align: center;
 }
+
+
+
 
 /* ==============================
    PAGE-SPECIFIC MENU COLORS
@@ -296,6 +300,8 @@ body.casino .menu {
 body.trading .menu {
   background: #6f42c1;
 }
+
+
 
 /* =========================
         MENU LINKS
@@ -315,14 +321,15 @@ body.trading .menu {
 
 
 
+
 /*======================================
   Orange buttons for survey offers
 ======================================*/
 
-.offer a.survey-btn {
+body.surveys .offer a.survey-btn {
   display: inline-block;
   margin-top: 15px;
-  background: #f59e0b; /* orange */
+  background: #f59e0b; !important; /* orange */
   color: #000;
   padding: 12px 20px;
   text-decoration: none;
@@ -331,7 +338,23 @@ body.trading .menu {
   transition: all 0.2s ease;
 }
 
-.offer a.survey-btn:hover {
-  background: #d97706; /* darker orange */
+body.surveys .offer a.survey-btn:hover {
+  background: #d97706; !important; /* darker orange */
   transform: scale(1.05);
+}
+
+
+
+
+/*======================================
+  Survey navigation buttons
+======================================*/
+
+body.surveys .menu a {
+  background: #f59e0b !important;
+  color: #000 !important;
+}
+
+body.surveys .menu a:hover {
+  background: #d97706 !important;
 }
