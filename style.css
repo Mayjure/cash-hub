@@ -323,7 +323,7 @@ body.trading .menu {
 
 
 /*======================================
-  Orange buttons for survey offers
+  ORANGE BUTTONS FOR SURVEY OFFERS
 ======================================*/
 
 body.surveys .offer a.survey-btn {
@@ -347,7 +347,7 @@ body.surveys .offer a.survey-btn:hover {
 
 
 /*======================================
-  Survey navigation buttons
+  SURVEY NAVIGATION BUTTONS
 ======================================*/
 
 body.surveys .menu a {
@@ -385,4 +385,19 @@ body.surveys .offer a {
 
 body.surveys .offer a:hover {
   background: #d97706 !important;
+}
+
+
+
+/*======================================
+  FINAL SURVEY NAV OVERRIDE
+======================================*/
+
+body.surveys nav.menu a {
+  background-color: #f59e0b !important;
+  color: #000 !important;
+}
+
+body.surveys nav.menu a:hover {
+  background-color: #d97706 !important;
 }
