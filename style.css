@@ -358,3 +358,31 @@ body.surveys .menu a {
 body.surveys .menu a:hover {
   background: #d97706 !important;
 }
+
+
+
+/*======================================
+  FORCE SURVEY PAGE COLORS
+======================================*/
+
+body.surveys header {
+  background: #f59e0b !important;
+}
+
+body.surveys .menu a {
+  background: #f59e0b !important;
+  color: #000 !important;
+}
+
+body.surveys .menu a:hover {
+  background: #d97706 !important;
+}
+
+body.surveys .offer a {
+  background: #f59e0b !important;
+  color: #000 !important;
+}
+
+body.surveys .offer a:hover {
+  background: #d97706 !important;
+}
